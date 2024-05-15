@@ -1,0 +1,29 @@
+body {
+    background: #dddddd;
+}
+
+#titulo {
+    font-family: "Lato", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+#home {
+    background-color: #f0ad11;
+}
+
+#navegacao {
+    color: #ffffff;
+    font-family: "Lato", sans-serif;
+}
+
+#titulopost {
+    font-family: "Lato", sans-serif;
+}
+
+#rodape {
+    font-family: "Lato", sans-serif;
+    background: #9b9c9e;
+}
+
