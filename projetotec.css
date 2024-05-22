@@ -2,11 +2,24 @@ body {
     background: #dddddd;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #f7b600;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
 #titulo {
     font-family: "Lato", sans-serif;
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
+    text-align: center;
+    padding: 20px;
 }
 
 #home {
@@ -18,12 +31,66 @@ body {
     font-family: "Lato", sans-serif;
 }
 
-#titulopost {
+.postagem-principal {
+    width: 660px;
+    float: left;
     font-family: "Lato", sans-serif;
+    background: white;
+}
+
+.postagem-lateral {
+    width: 660px;
+    float: right;
+    font-family: "Lato", sans-serif;
+    background: white;
+}
+
+.amarelo {
+    color: #f0ad11;
+}
+
+a {
+    color: #ffffff;
+    word-spacing: 10px;
+}
+
+a:hover {
+    color: #cc943f;
+    background: #5e4114;
+}
+
+p {
+    font-weight: 200px;
+    font-family: "Lato", sans-serif;
+    text-indent: 5px;
+}
+
+h2 {
+    color: #f0ad11;
+    text-indent: 5px;
+}
+
+h3 {
+    color: #f0ad11;
+    text-indent: 5px;
+}
+
+h4 {
+    background-color: #777d78;
+    text-indent: 5px;
+}
+
+h5 {
+    text-indent: 7px;
 }
 
 #rodape {
     font-family: "Lato", sans-serif;
     background: #9b9c9e;
+    text-align: center;
+    font-weight: 100;
+    padding: 15px;
+    clear: both;
 }
+
 
